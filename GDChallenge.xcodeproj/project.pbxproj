@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8657D7851E6EB19B0095FBD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657D7841E6EB19B0095FBD4 /* AppDelegate.swift */; };
-		8657D7871E6EB19B0095FBD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657D7861E6EB19B0095FBD4 /* ViewController.swift */; };
 		8657D78A1E6EB19B0095FBD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8657D7881E6EB19B0095FBD4 /* Main.storyboard */; };
 		8657D78C1E6EB19B0095FBD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657D78B1E6EB19B0095FBD4 /* Assets.xcassets */; };
 		8657D78F1E6EB19B0095FBD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8657D78D1E6EB19B0095FBD4 /* LaunchScreen.storyboard */; };
 		8657D79A1E6EB19B0095FBD4 /* GDChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657D7991E6EB19B0095FBD4 /* GDChallengeTests.swift */; };
 		8657D7A51E6EB19B0095FBD4 /* GDChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657D7A41E6EB19B0095FBD4 /* GDChallengeUITests.swift */; };
+		8657D7B31E6EB3B40095FBD4 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657D7B21E6EB3B40095FBD4 /* ImagesViewController.swift */; };
+		8657D7B51E6EB4000095FBD4 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657D7B41E6EB4000095FBD4 /* ImageData.swift */; };
+		8657D7B71E6EB7700095FBD4 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657D7B61E6EB7700095FBD4 /* Downloader.swift */; };
+		866BFF5C1E7A80430002DDE8 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BFF5B1E7A80430002DDE8 /* ImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		8657D7811E6EB19B0095FBD4 /* GDChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8657D7841E6EB19B0095FBD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8657D7861E6EB19B0095FBD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8657D7891E6EB19B0095FBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8657D78B1E6EB19B0095FBD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8657D78E1E6EB19B0095FBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		8657D7A01E6EB19B0095FBD4 /* GDChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8657D7A41E6EB19B0095FBD4 /* GDChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDChallengeUITests.swift; sourceTree = "<group>"; };
 		8657D7A61E6EB19B0095FBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8657D7B21E6EB3B40095FBD4 /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		8657D7B41E6EB4000095FBD4 /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		8657D7B61E6EB7700095FBD4 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		866BFF5B1E7A80430002DDE8 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				8657D7841E6EB19B0095FBD4 /* AppDelegate.swift */,
-				8657D7861E6EB19B0095FBD4 /* ViewController.swift */,
 				8657D7881E6EB19B0095FBD4 /* Main.storyboard */,
 				8657D78B1E6EB19B0095FBD4 /* Assets.xcassets */,
 				8657D78D1E6EB19B0095FBD4 /* LaunchScreen.storyboard */,
 				8657D7901E6EB19B0095FBD4 /* Info.plist */,
+				8657D7B21E6EB3B40095FBD4 /* ImagesViewController.swift */,
+				8657D7B41E6EB4000095FBD4 /* ImageData.swift */,
+				8657D7B61E6EB7700095FBD4 /* Downloader.swift */,
+				866BFF5B1E7A80430002DDE8 /* ImageTableViewCell.swift */,
 			);
 			path = GDChallenge;
 			sourceTree = "<group>";
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8657D7871E6EB19B0095FBD4 /* ViewController.swift in Sources */,
+				8657D7B31E6EB3B40095FBD4 /* ImagesViewController.swift in Sources */,
 				8657D7851E6EB19B0095FBD4 /* AppDelegate.swift in Sources */,
+				866BFF5C1E7A80430002DDE8 /* ImageTableViewCell.swift in Sources */,
+				8657D7B71E6EB7700095FBD4 /* Downloader.swift in Sources */,
+				8657D7B51E6EB4000095FBD4 /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +526,7 @@
 				8657D7AB1E6EB19B0095FBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8657D7AC1E6EB19B0095FBD4 /* Build configuration list for PBXNativeTarget "GDChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				8657D7AE1E6EB19B0095FBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8657D7AF1E6EB19B0095FBD4 /* Build configuration list for PBXNativeTarget "GDChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				8657D7B11E6EB19B0095FBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
